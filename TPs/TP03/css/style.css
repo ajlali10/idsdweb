@@ -1,0 +1,33 @@
+header, footer, section{
+    border: 2px solid green;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px gray;
+    border-radius: 10px;
+}
+div{
+    border: 1px dashed blue;
+    padding: 10px;
+}
+header{
+    background-image: url(../images/backgroun.jpeg);
+    background-size: cover;
+    text-align: center;
+}
+
+header h1, header a{
+    color: white;
+    font-weight: bold;
+}
+p, td, th{
+    font-family: 'Simonetta', cursive;
+}
+
+
+
+  table {
+    border-collapse: collapse;
+  }
+  th, td{
+    border-bottom: 1px solid #ddd;
+  }

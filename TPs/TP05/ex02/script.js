@@ -1,0 +1,12 @@
+let a="14";
+let b="27";
+let c=a+b;
+console.log("type de a:",typeof(a),"val de a:",a);
+console.log("type de b:",typeof(b),"val de b:",b);
+console.log("type de c:",typeof(c),"val de c:",c);
+a=parseInt(a);
+b=parseInt(b);
+c=a+b;
+console.log("type de a:",typeof(a),"val de a:",a);
+console.log("type de b:",typeof(b),"val de b:",b);
+console.log("type de c:",typeof(c),"val de c:",c);

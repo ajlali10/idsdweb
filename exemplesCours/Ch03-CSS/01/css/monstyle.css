@@ -1,0 +1,40 @@
+
+h1,h2{
+    color:red; 
+    text-decoration: underline;
+    font-family:  Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+h1{
+    text-align: center;
+    background-size: cover;
+    font-family: 'Akronim', cursive;
+    
+}
+h1:hover{
+    background-color: lightblue;
+   
+}
+h2{
+   
+}
+p{
+    color: green;
+    font-size: 14px;
+}
+
+ul > li{
+    list-style: none;
+    background-image:url(../images/background.jpeg);
+    display: inline-block;
+    border:2px solid black;
+    box-shadow: 4px 4px gray;
+    border-radius: 6px;
+}
+ul:first-child{
+    color: red;
+}
+li{
+    font-weight: bold;
+
+}

@@ -1,0 +1,70 @@
+div{
+   
+    margin: 2px;
+}
+#robot{
+    width: 200px;
+    height: 300px;
+}
+#head{
+    width: 50%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 25%;
+    border-radius: 50% 50% 0 0;
+    background-color: green;
+    transition-duration: 2s;
+}
+#head:hover{
+    width: 60% ;
+    left: 20%;
+    justify-content: space-evenly;
+}
+#body{
+    width: 100%;
+    height: 40%;
+    display: flex;   
+}
+#legs{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 10%;
+    left: 10%;
+    
+}
+#le,#re{
+    width: 10%;
+    height: 10%;   
+    border-radius: 30px;
+    background-color: white;
+ 
+}
+#la,#ra{
+    width: 20%;
+    height: 60%;   
+    border-radius: 40%;
+    background-color: green;
+}
+#main{
+    width: 60%;
+    height: 100%;  
+    background-color: green;
+}
+#ll,#rl{
+    width: 20%;
+    height: 90%; 
+    border-radius: 40%;
+    background-color: green;
+}
+#ll:hover,#la:hover{
+    transform: rotate(20deg);
+}
+#rl:hover, #ra:hover{
+    transform: rotate(-20deg);
+}
