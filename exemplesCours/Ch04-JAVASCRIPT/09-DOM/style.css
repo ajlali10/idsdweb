@@ -1,0 +1,14 @@
+.container div{
+    border: 1px solid orange;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    vertical-align: middle;
+}
+.active{
+    background-color: green;
+}

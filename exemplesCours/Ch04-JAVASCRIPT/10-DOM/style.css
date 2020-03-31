@@ -1,0 +1,15 @@
+.container div{
+    border: 1px solid orange;
+    width: 100px;
+    height: 140px;
+    text-align: center;
+    margin: 20px;
+}
+.container{
+    display: flex;
+    vertical-align: middle;
+    flex-wrap: wrap;
+}
+.active{
+    background-color: green;
+}
